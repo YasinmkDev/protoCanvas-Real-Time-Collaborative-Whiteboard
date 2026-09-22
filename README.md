@@ -143,7 +143,7 @@ cp .env.example .env.local
 Edit `.env.local` with your Supabase credentials:
 ```env
 VITE_SUPABASE_URL=https://your-project.supabase.co
-VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+VITE_SUPABASE_ANON_KEY=supabase_anon_key
 ```
 
 > **No Supabase?** The app works locally with a BroadcastChannel fallback for multi-tab testing. Configure Supabase later via the in-app settings modal (⚙️).
