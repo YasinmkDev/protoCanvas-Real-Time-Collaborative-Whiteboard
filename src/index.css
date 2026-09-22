@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --color-electric-violet: #8169ff;
+  --color-deep-iris: #6d4ff0;
+  --color-soft-lilac: #c9bfff;
+  --color-ink-black: #000000;
+  --color-carbon: #181818;
+  --color-graphite: #555555;
+  --color-silver: #999999;
+  --color-paper-white: #ffffff;
+  --color-aqua-wash: #81dbdb;
+  --color-lilac-bleed: #e3deff;
+
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-handwriting: 'Caveat', cursive;
+}
+
+:root {
+  --shadow-protopie: rgba(0, 0, 0, 0.08) 0px 3px 12px 0px, rgba(0, 0, 0, 0.04) 0px 0px 2px 0px;
+  --shadow-floating: rgba(0, 0, 0, 0.12) 0px 8px 24px -4px, rgba(0, 0, 0, 0.04) 0px 2px 6px 0px;
+}
+
+/* Canvas cursor styling */
+.canvas-cursor-crosshair {
+  cursor: crosshair;
+}
+.canvas-cursor-grab {
+  cursor: grab;
+}
+.canvas-cursor-grabbing {
+  cursor: grabbing;
+}
+.canvas-cursor-text {
+  cursor: text;
+}
+.canvas-cursor-eraser {
+  cursor: cell;
+}
+
