@@ -1,0 +1,6 @@
+{
+  "name": "Real-Time Collaborative Whiteboard",
+  "description": "Infinite collaborative canvas with zero-conflict Yjs CRDTs, Supabase Realtime synchronization, live cursors, shape tools, and vector exports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
