@@ -6,3 +6,10 @@ coverage/
 *.log
 .env*
 !.env.example
+
+# Tool-specific
+.kilo/
+graphify-out/
+
+# Lockfile conflict (using bun.lock)
+package-lock.json
